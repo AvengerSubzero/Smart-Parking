@@ -1,0 +1,49 @@
+Notification:
+
+1) User can notify if he sees an empty spot
+2) User can notify if he is leaving from a parking spot
+3) Display address by Geocoding
+
+
+User:
+
+Assign points 
+If a user goes to a parking spot earlier notified, then say thanks
+
+
+
+ERROR CODES - Must 
+
+IF login wrong, redirect to login page
+
+
+
+Every 3 hour delete
+
+Add current location option in Findparking
+
+1)Map doesnt reload always
+2) Image overlap -- Done
+3) Validation
+
+
+TODO:
+
+SQS
+
+Display info window - Done 
+
+Register Page - Done
+
+Welcome back Chutzpah
+
+CSS for login - Done
+
+Reverse geocoding  -- Done
+
+Delete markers
+
+Current location
+
+Validation and DB storage: - Done
+

@@ -1,0 +1,29 @@
+curl -XPOST localhost:9200/tweet_index/ -d '{
+    "settings" : {
+        "number_of_shards" : 1
+    },
+    "mappings": {
+      "tweet": {
+        "properties": {
+          "timestamp": { 
+            "type": "date"  
+          },
+          "title":{ 
+            "type":"string" 
+          },
+          "location":{
+            "type":"geo_point" 
+          } 
+        }
+      }
+    }'
+
+
+     doc = {
+                "timestamp":datetime.now(),
+                "location":{
+                    "lat":Decimal(("%0.5f" % lng)),
+                    "lng":Decimal(("%0.5f" % lat))) 
+                } ,
+                "title":data.get('text')
+            }
